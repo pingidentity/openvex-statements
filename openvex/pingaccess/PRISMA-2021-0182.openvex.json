@@ -1,0 +1,28 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/vex/summaries/PRISMA-2021-0182",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-10-06T13:41:04Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "PRISMA-2021-0182"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingaccess?repository_url=index.docker.io%2Fpingidentity%2Fpingaccess",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingAccess does not use Jetty. This is being pulled in by ehcache. PingAccess does not use the rest-management-service which this is a transitive dependency for.",
+      "justification": "component_not_present",
+      "timestamp": "2026-10-06T13:41:04Z"
+    }
+  ]
+}

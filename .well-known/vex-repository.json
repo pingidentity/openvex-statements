@@ -1,0 +1,15 @@
+{
+  "name": "Ping Identity VEX Repository",
+  "description": "VEX repository for Ping Identity products",
+  "versions": [
+    {
+      "spec_version": "0.1",
+      "locations": [
+        {
+          "url": "https://github.com/pingidentity/openvex-statements/releases/download/2026-10-12/vex-repository.tar.gz"
+        }
+      ],
+      "update_interval": "96h"
+    }
+  ]
+}

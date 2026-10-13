@@ -1,0 +1,150 @@
+{
+  "updated_at": "2026-10-06T13:41:48Z",
+  "packages": [
+    {
+      "id": "cpe:2.3:a:ping_identity:csd::::::::",
+      "location": "pkg/cpe/ping_identity/csd/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingagentlessik::::::::",
+      "location": "pkg/cpe/ping_identity/pingagentlessik/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingam::::::::",
+      "location": "pkg/cpe/ping_identity/pingam/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingauthorize::::::::",
+      "location": "pkg/cpe/ping_identity/pingauthorize/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingds::::::::",
+      "location": "pkg/cpe/ping_identity/pingds/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pinggooglechromeik::::::::",
+      "location": "pkg/cpe/ping_identity/pinggooglechromeik/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingidik::::::::",
+      "location": "pkg/cpe/ping_identity/pingidik/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingidm::::::::",
+      "location": "pkg/cpe/ping_identity/pingidm/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingig::::::::",
+      "location": "pkg/cpe/ping_identity/pingig/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+      "location": "pkg/cpe/ping_identity/pingoneldapgateway/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingonemfaik::::::::",
+      "location": "pkg/cpe/ping_identity/pingonemfaik/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingoneprotectik::::::::",
+      "location": "pkg/cpe/ping_identity/pingoneprotectik/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingoneverifyik::::::::",
+      "location": "pkg/cpe/ping_identity/pingoneverifyik/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "cpe:2.3:a:ping_identity:pingradiuspcv::::::::",
+      "location": "pkg/cpe/ping_identity/pingradiuspcv/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/p1as",
+      "location": "pkg/generic/pingidentity/p1as/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pf-pingone-risk-management-adapter",
+      "location": "pkg/generic/pingidentity/pf-pingone-risk-management-adapter/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pingauthorizepap",
+      "location": "pkg/generic/pingidentity/pingauthorizepap/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pingdataconsole",
+      "location": "pkg/generic/pingidentity/pingdataconsole/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pingdatagov",
+      "location": "pkg/generic/pingidentity/pingdatagov/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pingdatasync",
+      "location": "pkg/generic/pingidentity/pingdatasync/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pingfederate-iks",
+      "location": "pkg/generic/pingidentity/pingfederate-iks/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pingfederate-swagger-core",
+      "location": "pkg/generic/pingidentity/pingfederate-swagger-core/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pingldif-importer",
+      "location": "pkg/generic/pingidentity/pingldif-importer/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pingone-risk-management-ik",
+      "location": "pkg/generic/pingidentity/pingone-risk-management-ik/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/usercountutility",
+      "location": "pkg/generic/pingidentity/usercountutility/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:oci/pingaccess?repository_url=index.docker.io%2Fpingidentity%2Fpingaccess",
+      "location": "pkg/oci/pingidentity/pingaccess/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+      "location": "pkg/oci/pingidentity/pingcentral/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+      "location": "pkg/oci/pingidentity/pingdirectory/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:oci/pingfederate?repository_url=index.docker.io%2Fpingidentity%2Fpingfederate",
+      "location": "pkg/oci/pingidentity/pingfederate/vex.json",
+      "format": "openvex"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/vex/summaries/GHSA-R7WM-3CXJ-WFF9",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-10-06T13:41:04Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-R7WM-3CXJ-WFF9"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingfederate?repository_url=index.docker.io%2Fpingidentity%2Fpingfederate",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Some versions of PingFederate ship with a vulnerable jackson-core, but the bug only exists on Jackson's non-blocking/async parser path, and an exhaustive search (source, compiled bytecode, and a full-jar dependency scan) found no caller of that API anywhere in PingFederate's own code or its dependency graph. No functional risk today.",
+      "justification": "inline_mitigations_already_exist",
+      "timestamp": "2026-10-06T13:41:04Z"
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-R7WM-3CXJ-WFF9"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingaccess?repository_url=index.docker.io%2Fpingidentity%2Fpingaccess",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingAccess ships jackson-core 2.17.0 (within affected range <2.18.8). The async parser (AsyncInputFeeder/NonBlockingJsonParser) is an explicit opt-in API. Zero references to any async parser entry point found across all PingAccess JARs. Not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-10-06T13:41:04Z"
+    }
+  ]
+}
