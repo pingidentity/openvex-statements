@@ -3,7 +3,7 @@
   "@id": "https://vex.ping-eng.com/vex/summaries/GHSA-XPW8-RCWV-8F8P",
   "author": "Platform Security <security@pingidentity.com>",
   "version": 1,
-  "timestamp": "2026-10-06T13:41:04Z",
+  "timestamp": "2026-10-24T00:34:02Z",
   "statements": [
     {
       "vulnerability": {
@@ -22,7 +22,7 @@
       "status": "not_affected",
       "status_notes": "Netty is a transitive dependency of AWS SDK. As discussed in this thread https://github.com/aws/aws-sdk-java-v2/issues/4619, netty is used by the SDK as a client, not a server. Hence, this CVE cannot be exploited.",
       "justification": "component_not_present",
-      "timestamp": "2026-10-06T13:41:04Z"
+      "timestamp": "2026-10-24T00:34:02Z"
     },
     {
       "vulnerability": {
@@ -41,7 +41,7 @@
       "status": "not_affected",
       "status_notes": "PF 12.1 does indeed have version 4.1.84Final. Although this version of Netty has a known vulnerability, PingFederate is not impacted because the issue pertains to servers affected by the HTTP/2 Rapid Reset Attack. PingFederate uses Netty as a client to interact with AWS services, and the vulnerability primarily targets server-side implementations.\n\nPF 12.2 will be shipped with version 4.1.108Final.",
       "justification": "vulnerable_code_not_in_execute_path",
-      "timestamp": "2026-10-06T13:41:04Z"
+      "timestamp": "2026-10-24T00:34:02Z"
     }
   ]
 }

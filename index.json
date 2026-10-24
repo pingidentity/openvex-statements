@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T13:41:48Z",
+  "updated_at": "2026-10-24T00:34:28Z",
   "packages": [
     {
       "id": "cpe:2.3:a:ping_identity:csd::::::::",
@@ -87,6 +87,11 @@
       "format": "openvex"
     },
     {
+      "id": "pkg:generic/pingidentity/pingbase",
+      "location": "pkg/generic/pingidentity/pingbase/vex.json",
+      "format": "openvex"
+    },
+    {
       "id": "pkg:generic/pingidentity/pingdataconsole",
       "location": "pkg/generic/pingidentity/pingdataconsole/vex.json",
       "format": "openvex"
@@ -97,8 +102,23 @@
       "format": "openvex"
     },
     {
+      "id": "pkg:generic/pingidentity/pingdatagovernance",
+      "location": "pkg/generic/pingidentity/pingdatagovernance/vex.json",
+      "format": "openvex"
+    },
+    {
       "id": "pkg:generic/pingidentity/pingdatasync",
       "location": "pkg/generic/pingidentity/pingdatasync/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pingdelegator",
+      "location": "pkg/generic/pingidentity/pingdelegator/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pingdirectoryproxy",
+      "location": "pkg/generic/pingidentity/pingdirectoryproxy/vex.json",
       "format": "openvex"
     },
     {
@@ -119,6 +139,11 @@
     {
       "id": "pkg:generic/pingidentity/pingone-risk-management-ik",
       "location": "pkg/generic/pingidentity/pingone-risk-management-ik/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:generic/pingidentity/pingtoolkit",
+      "location": "pkg/generic/pingidentity/pingtoolkit/vex.json",
       "format": "openvex"
     },
     {
