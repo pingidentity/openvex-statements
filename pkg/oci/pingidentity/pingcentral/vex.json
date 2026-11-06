@@ -1,0 +1,2403 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/pkg/oci/pingidentity/pingcentral/vex.json",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-11-06T16:13:49Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2000-0672"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2000-0760"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2000-1210"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2001-0590"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2002-0493"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2002-1148"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2002-2006"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2003-0042"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2003-0043"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2003-0044"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2003-0045"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2005-0808"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2005-4838"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2006-7196"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2007-2449"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2008-0128"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2009-3548"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2013-2185"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2013-4286"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2013-4322"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2013-4444"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2013-4590"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2013-6357"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2014-0075"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2014-0096"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2014-0099"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2014-0119"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "springfox-swagger-ui is not vulnerable to this spring-framework CVE related to Java serialization. This finding is not relevant to springfox-swagger-ui or PingCentral.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "\u201cPivotal Spring Framework through 5.3.16 suffers from a potential remote code execution (RCE) issue\u201d - PingCentral2.2 uses version 5.3.31 - false-positive.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-10166"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libgd"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE does not affect tomcat. This CVE is about GD Graphics Library (libgd) which PingCentral does not use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-3093"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/ognl@2.7.3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "GHSA-383p-xqxx-rrmp PingCentral does not use the Apache Struts package which is also required to lead to the attack described in the CVE. This finding a false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-11771"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.commons/commons-compress"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "In PingCentral, the ZipArchiveInputStream class comes from \"Maven: org.apache.commons:commons-compress:1.20 (commons-compress-1.20.jar)\". This version of commons is not vulnerable to this issue.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-14335"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.h2database/h2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does not use the affected version of h2. The vulnerable version is 1.4.197 and PingCentral uses 1.4.200, there appears to be version mismatching from the scanning tool.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-18074"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/cpython"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral doesn't utilize python libriaries within its code base.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-19935"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/php-imap"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE does not affect tomcat. This CVE is about the use of the Internet Message Access Protocol (IMAP) in the PHP scripting language. PingCentral does not use the vulnerable function.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-20783"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/php-phar"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE does not affect tomcat. This CVE is about the use of PHAR (acronym for php archive) in the PHP scripting language. PingCentral does not use the vulnerable function.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0199"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0221"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0232"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-10072"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-11324"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/cpython"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral doesn't utilize python libriaries within its code base, therefor it's not vulnerable to this CVE.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-17495"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.swagger/swagger-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does not use the vulnerable <style>@import code pattern required by this vulnerability. This is a false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-9513"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net/http2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE does not affect tomcat. This CVE is about HTTP/2 configurations in a long list of packages, but Apache's Tomcat is not one of them. PingCentral does not use the vulnerable configuration.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-11996"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-13934"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-13935"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-13943"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-14384"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.jboss.web/jbossweb"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE does not affect tomcat. This CVE is about a denial of service vulnerability with JBossWeb in versions before 7.5.31.Final-redhat-3. PingCentral does not use this package.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-1935"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-1938"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-27694"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/trend-micro-imsva"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE does not affect tomcat. This CVE is about Trend Micro InterScan Messaging Security Virtual Appliance. PingCentral does not use this package.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-36518"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Jackson-databind has been updated to a non-vulnerable version in PingCentral 2.0. Please upgrade to this version to resolve this finding.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-9484"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-22060"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This version of the Spring Framework is scheduled for upgrade in PingCentral 1.10.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-22096"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This version of the Spring Framework is scheduled for upgrade in PingCentral 1.10.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-23463"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.h2database/h2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does not use the vulnerable function named in CVE-2021-23463 and is not vulnerable to this issue.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-25329"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-28168"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.glassfish.jersey.core/jersey-client"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Although PingCentral does use the package in question, it does not use the vulnerable function \"File.createTempFile()\". PingCentral is not vulnerable to this issue.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-28169"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-io"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Scheduled for remediation.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-29425"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/commons-io/commons-io"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Vulnerable classes are unused by PingCentral and therefore not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-33037"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-34429"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-io"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Scheduled for remediation.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-35515"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.commons/commons-compress"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Vulnerable classes are unused by PingCentral and therefore not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-35516"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.commons/commons-compress"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Vulnerable classes are unused by PingCentral and therefore not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-35517"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.commons/commons-compress"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Vulnerable classes are unused by PingCentral and therefore not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-36090"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.commons/commons-compress"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Vulnerable classes are unused by PingCentral and therefore not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-37600"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/util-linux@2.36.1-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This library is included in a docker image that Ping docker images are based on. Ping products are not using it directly, exploitation would require full access to the container running the image.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42340"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42550"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/ch.qos.logback/logback-classic"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This version of logback is a transitive dependency of the Spring framework that PingCentral uses; however, PingCentral actually uses log4j for it's logging, not logback. PingCentral is not vulnerable to this issue.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-46877"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does not utilize the vulnerable JsonNode JDK serialization. Jackson-databind has been updated to a non-vulnerable version in PingCentral 2.0. Please upgrade to this version to resolve this finding.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The snakeyaml package is a 2nd level dependency of the spring boot library, it not called directly in PingCentral code. A pre-requisite for these CVEs is the processing of untrusted yaml files. PingCentral does not accept or process yaml input files so there is no attack vector to exploit any yaml based vulnerabilities in the application.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-22965"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework.boot/spring-boot"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral is not vulnerable to CVE-2024-38819. This is because PingCentral does not use the vulnerable \"spring-webmvc\" or \"spring-webflux.\"",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-23181"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This instance of Tomcat is a transitive dependency of spring boot, PingCentral uses Jetty as it's web server. PingCentral is not vulnerable to this CVE because Tomcat is not in use.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-24329"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/kotlin"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE is for developers writing Kotlin projects using gradle as a dependency manager. PingCentral uses maven, not gradle, so this CVE is not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-25857"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The snakeyaml package is a 2nd level dependency of the spring boot library, it not called directly in PingCentral code. A pre-requisite for these CVEs is the processing of untrusted yaml files. PingCentral does not accept or process yaml input files so there is no attack vector to exploit any yaml based vulnerabilities in the application.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38749"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "GHSA-c4r9-r8fh-9vj2 The snakeyaml package is a 2nd level dependency of the spring boot library, it not called directly in PingCentral code. A pre-requisite for these CVEs is the processing of untrusted yaml files. PingCentral does not accept or process yaml input files so there is no attack vector to exploit any yaml based vulnerabilities in the application. False-positive.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38750"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "GHSA-hhhw-99gj-p3c3 The snakeyaml package is a 2nd level dependency of the spring boot library, it not called directly in PingCentral code. A pre-requisite for these CVEs is the processing of untrusted yaml files. PingCentral does not accept or process yaml input files so there is no attack vector to exploit any yaml based vulnerabilities in the application. False-positive.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38751"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "GHSA-98wm-3w3q-mw94 The snakeyaml package is a 2nd level dependency of the spring boot library, it not called directly in PingCentral code. A pre-requisite for these CVEs is the processing of untrusted yaml files. PingCentral does not accept or process yaml input files so there is no attack vector to exploit any yaml based vulnerabilities in the application. False positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38752"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "GHSA-9w3m-gqgf-c4p9 The snakeyaml package is a 2nd level dependency of the spring boot library, it not called directly in PingCentral code. A pre-requisite for these CVEs is the processing of untrusted yaml files. PingCentral does not accept or process yaml input files so there is no attack vector to exploit any yaml based vulnerabilities in the application. False positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-41854"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "GHSA-w37g-rhq8-7m4j The snakeyaml package is a 2nd level dependency of the spring boot library, it not called directly in PingCentral code. A pre-requisite for these CVEs is the processing of untrusted yaml files. PingCentral does not accept or process yaml input files so there is no attack vector to exploit any yaml based vulnerabilities in the application. False-positive.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-42003"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral is not vulnerable to this issue as it does not enable jackson databind's UNWRAP_SINGLE_VALUE_ARRAYS. Jackson-databind has been updated to a non-vulnerable version in PingCentral 2.0. Please upgrade to this version to resolve this finding.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-42004"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral is not vulnerable to this issue as it does not use the affected BeanDeserializer.deserializeFromArray function. Jackson-databind has been updated to a non-vulnerable version in PingCentral 2.0. Please upgrade to this version to resolve this finding.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-45868"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.h2database/h2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The H2 Database is found only as a dependency in PingCentral, not the console which is required to exploit this vulnerability. Therefore, this vulnerability is not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-1370"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/net.minidev/json-smart"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "json-smart is a transitive dependency in PingCentral but no json-smart functions are called in the PingCentral codebase. This vulnerability is not exploitable.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/filebackedoutputstream-in-google-guava"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does not utilize the vulnerable Google Guava FileBackedOutputSteam function. This CVE is not exploitable. This dependency will be upgraded in a future version to reduce scan findings.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34034"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-webflux"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does not package Spring Webflux as a dependency. This is a false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-39325"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net/http2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does not use golang. Multiple git submodules are present in the PingCentral image\u2019s Alpine OS. As these are written in golang, the packages contain go files as dependencies, however no go commands are executable on PingCentral, meaning that even with local access to a container, vulnerabilities in go language components cannot be exploited. If the case arises that a vulnerability in go can be exploited in an Alpine package, we would act on this and patch accordingly.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-43804"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/cpython"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Product Evaluation: PingCentral doesn't utilize python libriaries within its code base, therefore it's not vulnerable to this CVE.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-44487"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Testing for exploitability of the vulnerability has been conducted with no results, PingCentral is not exploitable to the HTTP/2 cancellation attack.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-45288"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net/http2@2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral 2.1 uses Jetty version 9.4.53.v20231009, which supports HTTP/2. The server-side (Jetty) configuration does not have HTTP/2 explicitly enabled, therefore it's unlikely that Jetty is serving HTTP/2 requests.",
+      "justification": "vulnerable_code_cannot_be_controlled_by_adversary",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-46120"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/rabbitmq"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does not package RabbitMQ as a dependency. This is a false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-51775"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.bitbucket.b_c/jose4j"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral 2.1 uses a vulnerable version of jose4j (0.9.3). PingCentral codebase is using the jose4j library and specifically references classes related to the PBES2 algorithm.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-52428"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.nimbusds/nimbus-jose-jwt"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral uses nimbus-jose-jwt-9.22.jar which is vulnerable, but does not use the vulnerable PasswordBasedDecrypter class. This is a false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-13009"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "False-positive. PingCentral 2.2 does not utilize the vulnerable jetty GzipHandler class.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22201"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The affected jetty library is included in PingCentral 2.2 as a transitive dependency. The parent library is scheduled to be updated: PASS-7104: Update spring-boot-starter-jetty versionOpen",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22243"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral2.2 does utilize UriComponentsBuilder. The library will be upgraded, see https://pingidentity.atlassian.net/browse/PASS-7022",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22257"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework.security/spring-security-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral console is not affected by this issue as it does not use the vulnerable class AuthenticatedVoter.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22259"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does use the UriComponentsBuilder to parse URLs but only internal URLS and does not perform host validation on the parsed url so it is not vulnerable to this issue but we should upgrade when convenient to avoid scan findings.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22259"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral2.2 does utilize UriComponentsBuilder. The library will be upgraded, see https://pingidentity.atlassian.net/browse/PASS-7022",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22262"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral2.2 does utilize UriComponentsBuilder. The library will be upgraded, see https://pingidentity.atlassian.net/browse/PASS-7100",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25710"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.commons/commons-compress"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PC2.2.0: commons-compress:1.21 comes bundled in within spring-boot-loader-tools:2.7.18 which doesn't have a patched version. We will try to exlude the vulnerable transitive dependency. See ticket: https://pingidentity.atlassian.net/browse/PASS-7071",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26308"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.commons/commons-compress"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PC2.2.0: commons-compress:1.21 comes bundled in within spring-boot-loader-tools:2.7.18 which doesn't have a patched version. We will try to exlude the vulnerable transitive dependency. See ticket: https://pingidentity.atlassian.net/browse/PASS-7071",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38808"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PC2.2: SpEL expressions are used only in test classes - this is a false-positive.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38809"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PC2.2 - The ETags \"If-Match\" and \"If-None-Match\" are defined in the code, but not actively used in the main code base - this is a false-positive.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38816"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "\u201cmalicious requests are blocked and rejected when any of the following is true: * the Spring Security HTTP Firewall HttpFirewall :: Spring Security is in use * the application runs on Tomcat or Jetty\u201d PingCentral2.2 does use jetty - this is a false-positive.",
+      "justification": "inline_mitigations_already_exist",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38819"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral2.2 doesn\u2019t use WebMvc.fn and WebFlux.fn in production code (only in test classes) - this is a false-positive.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38820"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral2.2 doesn\u2019t use DataBinder - this is a false-positive.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38827"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework.security/spring-security-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Too vague, still awaiting analysis. PingCentral will update the spring security library: PASS-7103: Update spring-security-core versionOpen",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38828"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral2.2 doesn\u2019t use @RequestBody byte[] - this is a false-positive.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-47554"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/commons-io/commons-io"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral2.2.0 is utilizing an older version of pingcommons:1.1.0.3 - which uses a vulnerable version of commons-io. There is already a request to upgrade the pingcommons version: https://pingidentity.atlassian.net/browse/PASS-7069",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-50379"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "spring-boot-starter-tomcat ((bundled with vulnerable tomcat-embed-el-9.0.83) ) is explicitly excluded in PC2.2. Scanners are incorrectly detecting this vulnerable version - this is a false-positive.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-9823"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "GHSA-j26w-f9rq-mr2q PingCentral doesn't utilize Jetty's DosFilter. False positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-13465"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/lodash"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral uses lodash _.omit exclusively with static, developer-defined property names in frontend Redux state management. No attacker-controlled input is passed to lodash path-based APIs. As a result, CVE-2025-13465 is not exploitable in PingCentral. A lodash upgrade will be performed as part of routine dependency maintenance.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22228"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework.security/spring-security-crypto"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "False Positive. PingCentral 2.2 does not use the vulnerable BCryptPasswordEncoder.matches(CharSequence,String).",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22235"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework.boot/spring-boot"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The PingCentral 2.2 application is not exploitable via CVE-2025-22235. See TRIAGE ticket for the detailed explanation.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41242"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-webmvc"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral is not vulnerable to this CVE. By default, this component is deployed with an embedded Jetty servlet container. As per CVE details, applications deployed on Apache Tomcat or Eclipse Jetty are not vulnerable (PingCentral uses Jetty).",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48734"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/commons-beanutils/commons-beanutils"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "False-positive. commons-beanutils-1.9.4 is a transitvie dependency in PingCentral. PingCentral does not utilize the vulnerable commons-beanutils-1.9.4 directly and is therefore not vulnerable to this exploit. In order to prevent further false-positives, a ticket has been issued to update the library that comes bundled with commons-beanutils: PASS-7099: Update opencsv to 5.11.2Open",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48924"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/commons-lang"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "False Positive. PingCentral 2.3 uses commons-lang:2.6 which falls outside the vulnerable range 2.0 < 2.6 (excluding 2.6).",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48988"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does not utilize tomcat. Tomcat is explicitly excluded. False positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48989"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "False Positive. PingCentral 2.3 embedded container: spring-boot-starter-web excludes Tomcat and spring-boot-starter-jetty is added \u2192 embedded Jetty.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-49124"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does not utilize tomcat. Tomcat is explicitly excluded. False positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-49125"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral does not utilize tomcat. Tomcat is explicitly excluded. False positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52999"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingCentral 2.2 does not parse input files from untrusted sources. False positive. In order to maintain a good security posture, PingCentral is scheduled to have this library upgraded: https://pingidentity.atlassian.net/browse/PASS-7102",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-53864"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.nimbusds/nimbus-jose-jwt"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "We have a ticket to upgrade it. https://pingidentity.atlassian.net/browse/PASS-7134",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-55668"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "False Positive. PingCentral 2.3 embedded container: spring-boot-starter-web excludes Tomcat and spring-boot-starter-jetty is added \u2192 embedded Jetty.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-111497"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingcentral?repository_url=index.docker.io%2Fpingidentity%2Fpingcentral",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/nodejs"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Not affected. CVE-2026-111497 is an out-of-bounds write in the Node.js built-in Brotli decoder, exploitable only where a Node.js runtime decompresses attacker-controlled Brotli data. PingCentral does not ship or execute a Node.js runtime: the Node.js-built UI is compiled ahead of time into static JavaScript bundles served by the product, and at request time the browser (not Node.js) renders it and performs any Content-Encoding decompression using the browser's own Brotli implementation, which is separate code and not affected by this CVE. Node.js is used only in CI build containers, which are not deployed to production.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    }
+  ]
+}

@@ -1,0 +1,2802 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/pkg/oci/pingidentity/pingdirectory/vex.json",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-11-06T16:13:49Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2005-3747"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE is applicable to Jetty Server. Jetty toolchain (schemas) is a different package and does not have CVEs.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2009-1523"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE is applicable to Jetty Server. Jetty toolchain (schemas) is a different package and does not have CVEs.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2009-1524"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE is applicable to Jetty Server. Jetty toolchain (schemas) is a different package and does not have CVEs.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2009-5048"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE is applicable to Jetty Server. Jetty toolchain (schemas) is a different package and does not have CVEs.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2009-5049"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE is applicable to Jetty Server. Jetty toolchain (schemas) is a different package and does not have CVEs.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2011-4461"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE is applicable to Jetty Server. Jetty toolchain (schemas) is a different package and does not have CVEs.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2013-0422"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.sun.jmx/jmxri"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not use the vulnerable methods getMBeanInstantiator or checkSecurityManager as noted in the CVE advisory, hence this is a false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2014-3146"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/lxml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a dependency of a parent docker image that needs to process an http request to be exploitable. No python is used to process any traffic in Ping's products, this is therefore not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2014-3893"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.velocity/velocity"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory uses a custom build of Velocity 2.0 with security patches applied",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this CVE related to Java serialization because it does not use Spring's HttpInvoker endpoints.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE does not have a fix. The vendor states that untrusted data is not an intended use case. PingDataConsole does not deserialize data on external endpoints for it to be exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000110"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/wsgiref"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a dependency of a parent docker image that needs to process an http request to be exploitable. No python is used to process any traffic in Ping's products, this is therefore not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-20012"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssh@8.6_p1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This package is a part of the base image and only used during container initial setup. It is not accessible externally to enable remote exploitation",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2017-12628"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.james/james-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Apache James is not used by PingDirectory",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2017-15708"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.synapse/synapse-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Apache Synapse is not used by PingDirectory",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2017-18640"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not utilitize the alias function in snakeyaml, making this CVE not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2017-5638"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.velocity/velocity"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory uses a custom build of Velocity 2.0 with security patches applied",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2017-7536"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.hibernate.validator/hibernate-validator"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This privilege escalation bug requires admin privileges on the PingDirectory machine to execute successfully. Successful exploitation will therefore not evelate permissions.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-1000500"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.31.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "alpine:latest currently includes busybox 1.32.1, alpine:edge ships busybox 1.33.0. This can be verified by running \n$ docker run -it pingidentity/pingaccess:latest busybox --help",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-10237"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/google-guava"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Although the com.google.guava:guava:jar is pulled in as a 3rd level dependency, PingDirectory does not depend on this library and will not deserialize attacker-provided data. Therefore, the CVE is not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-12545"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Fixed in PingDirectory 7.3.0.9",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-19787"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/lxml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a dependency of a parent docker image that needs to process an http request to be exploitable. No python is used to process any traffic in Ping's products, this is therefore not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-25032"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/zlib@1.2.11"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is the most up-to-date version of zlib. Once redhat releases a new version, it will be auto-updated in the following Ping devops image release.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-8088"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.slf4j/slf4j-api"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE is applicable to the slf4j-ext module. PD is using slf4j-api",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-10358"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.maven/maven"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is an auxiliary tool that is used to collect support data for better troubleshooting. The risk in minimal",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-13116"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.velocity/velocity"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory uses a custom build of Velocity 2.0 with security patches applied",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-17495"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.swagger/swagger-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory Admin Console pulls in Swagger as a transitive dependency, but does not use it in the vulnerable way. This CVE is not exploitable in PingDirectory.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-17543"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.lz4/lz4-java"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory pulls in L4Z as a build dependency, but does not use the vulnerable method LZ4_write32. Therefore, this CVE is not exploitable in PingDirectory.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-3834"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.rhq/rhq-enterprise-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "JON 3 is not used by PingDirectory. This is included in the docker image as a part of the base distribution and therefore does not affect the product.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-13936"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.velocity/velocity"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory leverages version 1.7 of the velocity engine which will not be patched by the vendor. Ping's engineering team has forked this minor version and patched it in 1.7.1. The patch will be included in the latest maintenance versions of 8.3, 8.2, 8.1, 8.0, 7.3, 7.2, 7.0",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-13956"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.httpcomponents/httpclient"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is an auxiliary tool that is used to collect support data for better troubleshooting. The risk in minimal",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-13956"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/org-apache-httpcomponents-httpclient@4.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The most recent PD version is using httpclient 4.5.13 which is not affected by the vulnerability",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-13956"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/org-apache-httpcomponents-httpclient@4.5.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The most recent PD version is using httpclient 4.5.13 which is not affected by the vulnerability",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-13959"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.velocity/velocity"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not utilize velocity-tools as a renderer hence the CVE is not exploiable. The feature it is used for is deprecated and will be removed in future releases https://docs.pingidentity.com/pingdirectory/9.3/pingdatametrics_server_administration_guide/pd_met_velocity_tools_context_prov.html",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-15778"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssh"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE applies to openssh which is a component of the underlying OS PingDirectory is running on and is only used during container initial setup. OS level dependency flaws are not exploitable in PingDirectory.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-17521"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.groovy/groovy"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated in PingDirectory 9.0",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-36518"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory is not vulnerable to this issue regarding jackson databind because it does not use the vulnerable UntypedObjectDeserializer class.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-7676"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/angular"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The vulnerability is mitigated by console server-side input sanitization",
+      "justification": "inline_mitigations_already_exist",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-26291"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.maven/maven"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is an auxiliary tool that is used to collect support data for better troubleshooting. The risk in minimal",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-26291"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/mvn"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this issue found in our custom csd (collect support data) tool because of how Ping manages dependency downloads. This CVE is related to insecure (http, as opposed to https) calls to maven central during development or runtime that could potentially create a supply chain vulnerability if the dependency being requested has been spoofed or compromised. PingDirectory is not vulnerable to this because our dependency calls go to internal Ping sources, not out to maven central. csd will never make a call out to maven central for a dependency on its own.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-28168"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.glassfish.jersey.core/jersey-client"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE is pertinent to Jersey server but PingDirectory is using HK2 InjectionManager which does not have CVEs",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-29425"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/commons-io/commons-io"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is an auxiliary tool that is used to collect support data for better troubleshooting. The risk in minimal",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-34429"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-io"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The most recent PD version is using Jetty 4.44 which is not affected by the vulnerability",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-39293"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/go@1.16.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a False Positive. Go component is not used by PingDirectory",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-4231"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/angular"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This appears to be a scanner error. The vulnerability is about Angular Core 11, but it is hitting on our version of Angular.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42374"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.33.1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42375"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.33.1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42378"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.33.1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42379"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.33.1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42380"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.33.1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42381"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.33.1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42382"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.33.1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42383"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.33.1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42384"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.33.1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42385"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.33.1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42386"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/busybox@1.33.1-r3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Remediated",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-42550"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/ch.qos.logback/logback-classic"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This version of logback is a transitive dependency of the Spring framework that PingDirectory uses; however, PingDirectory actually uses log4j for it's logging, not logback. PingDirectory is not vulnerable to this issue.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-46877"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this because it does not use jackson's JsonNode JDK serialization.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory is not vulnerable to this issue regarding Remote Code Execution with Snakeyaml because PingDirectory does not use snakeyaml on untrusted data. PingDirectory will upgrade its version of snakeyaml as an additional layer of safety, but a release has not been scheduled as of right now.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-2048"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this CVE related to resource exhaustion in HTTP/2 because PingDirectory does not accept http/2 requests. Per the following eclipse documentation, HTTP/2 has to be explicitly enabled, which does not happen in PD. We are upgrading our version of Jetty as an additional layer of security. We will upgrade our version of Jetty in a future release as an additional layer of security. . https://www.eclipse.org/jetty/documentation/jetty-10/programming-guide/index.html",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-21540"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/oracle-java-se"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not load and run untrusted code onto the server on which it is running nor does it rely on a Java sandbox for security as stated in this CVE. Additionally, this vulnerability appears to be moreso related to a customer's own environment and not PingDirectory specifically.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-21549"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/java-se-17-0-3-1-oracle-graalvm-enterprise-edition-21-3-2-22-1-0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not load and run untrusted code onto the server on which it is running nor does it rely on a Java sandbox for security as stated in this CVE. Additionally, this vulnerability appears to be moreso related to a customer's own environment and not PingDirectory specifically.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-21618"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/oracle-java-se"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not load and run untrusted code onto the server on which it is running nor does it rely on a Java sandbox for security as stated in this CVE. Additionally, this vulnerability appears to be moreso related to a customer's own environment and not PingDirectory specifically.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-21626"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/oracle-java-se"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not load and run untrusted code onto the server on which it is running nor does it rely on a Java sandbox for security as stated in this CVE. Additionally, this vulnerability appears to be moreso related to a customer's own environment and not PingDirectory specifically.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-21628"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/oracle-java-se"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not load and run untrusted code onto the server on which it is running nor does it rely on a Java sandbox for security as stated in this CVE. Additionally, this vulnerability appears to be moreso related to a customer's own environment and not PingDirectory specifically.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-22965"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping Products are not vulnerable to this CVE. Ping is moving to upgrade Spring in our products as an additional layer of safety against this.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-22965"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "When packaged with PingDirectory, the Admin Console is running on Jetty, this violates the exploitability criteria of running on Tomcat. When shipped as a standalone Admin Console, the customer should not run the .war file on a Tomcat server. Regarding the docker image that runs Admin Console, this is being shipped with Tomcat out of the box, and could be vulnerable to CVE-2022-22965. We are prioritizing an emergency fix for this. We recommend that customers lock down access to their Admin Console until a new image is released, if the attacker can not access it via HTTP requests they will not be able to exploit it. The PingDirectory CLI can be leveraged if configuration changes need to be made while the admin console is down.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-25857"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this because it does not use snakeyaml to parse untrusted data. In PingDirectory the snakeyaml.load() function is used to parse server profile templates which are controlled by the admin and trusted.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-34169"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/xalan/xalan"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not contain any XSLT processing classes from the Xalan dependency, which is the cause of this vulnerability. PingDirectory also does not facilitate the processing of XSLT stylesheets. There is no threat vector for the processing of malicious XSLT stylesheets.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-3509"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/google-protobuf-java"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "protobuf-java is not shipped with PingDirectory. Please provide detection path for further analysis.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-3510"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/google-protobuf-java"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "protobuf-java is not shipped with PingDirectory. Please provide detection path for further analysis.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-37434"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/zlib-inflategetheader"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Although PingDirectory uses the jzlib package, it does not use the vulnerable function inflateGetHeader(). Therefore, this vulnerability is not exploitable in PingDirectory.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38749"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this because it does not use snakeyaml to parse untrusted data. In PingDirectory the snakeyaml.load() function is used to parse server profile templates which are controlled by the admin and trusted.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38750"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this because it does not use snakeyaml to parse untrusted data. In PingDirectory the snakeyaml.load() function is used to parse server profile templates which are controlled by the admin and trusted.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38751"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this because it does not use snakeyaml to parse untrusted data. In PingDirectory the snakeyaml.load() function is used to parse server profile templates which are controlled by the admin and trusted.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38752"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this because it does not use snakeyaml to parse untrusted data. In PingDirectory the snakeyaml.load() function is used to parse server profile templates which are controlled by the admin and trusted.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-40153"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/woodstox-disputed"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this because it does not use the vulnerable FullDTDReader class.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-41854"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.yaml/snakeyaml"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory is not vulnerable to this because it does not use snakeyaml to parse untrusted data. In PingDirectory the snakeyaml.load() function is used to parse server profile templates which are controlled by the admin and trusted.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-41881"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.netty/netty-all"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory is not vulnerable to this issue because the vulnerability affects the package \"netty-all\" which PingDirectory does not have.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-42003"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this because it does not enable jackson's UNWRAP_SINGLE_VALUE_ARRAYS.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-42004"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Ping DirectoryServer is not vulnerable to this because it does not use jackson's deserializeFromArray.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-4244"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.codehaus.plexus/plexus-utils"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Plexus-utils is not required to run PingDirectory. We use it to create and upload escrow at the end of each release. It can be safely removed from the product directory.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-4245"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.codehaus.plexus/plexus-utils"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Plexus-utils is not required to run PingDirectory. We use it to create and upload escrow at the end of each release. It can be safely removed from the product directory.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-42889"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.commons/commons-text"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This finding is a false positive as PingDirectory does not use the commons-text methods which implement StringLookup as described in https://nvd.nist.gov/vuln/detail/CVE-2022-42889. PingDirectory uses the simple StringSubstitutor.replace() and TextStringBuilder.appendln() methods only, not the potentially vulnerable createInterpolator() method. None of the replace() or appendln() overrides contain StringLookup, StringLookupFactory or createInterpolator.\n\nSee https://commons.apache.org/proper/commons-text/apidocs/src-html/org/apache/commons/text/StringSubstitutor.html  & https://commons.apache.org/proper/commons-text/apidocs/src-html/org/apache/commons/text/TextStringBuilder.html.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-45143"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API. Version 9.0.68 is not vulnerable as per https://security.snyk.io/package/maven/org.apache.tomcat.embed%3Atomcat-embed-el/9.0.68.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-45146"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/org-bouncycastle-bc-fips"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is not an issue with newer PingDirectory releases that use bc-fips 1.0.2.4 it is recommended to update your software.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-0767"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/mozilla-network-security-services-nss"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE is related to a specific browser, and PingDirectory Admin Console is not specific to any particular browser. It appears as though the customer's scan may have applied to their entire environment, and not just PingDirectory.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-1370"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/net.minidev/json-smart"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "json-smart is a transitive dependency of the com.pingidentity:statement-processing-library dependency but does not utilize any json-smart functions and instead uses other packages such as jackson-core for json related functionality. Therefore, this vulnerability is not exploitable in PingDirectory.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-20861"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Although PingDirectory may use Spring Framework and is shipped with a Spring Expression Jar file; PingDirectory does not allow for a users to provide a specially crafted SpEL expression, therefore making this vulnerability not exploitable. We have an upgrade for the Spring Framework version in our pipeline, but there is no date for the release as of right now since this vulnerability is non exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-20883"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework.boot/spring-boot"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory is not vulnerable to this issue because it does not use if Spring MVC is used together with a reverse proxy cache. This CVE is not exploitable in Ping Directory.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-21830"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/oracle-java-se"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not load and run untrusted code onto the server on which it is running nor does it rely on a Java sandbox for security as stated in this CVE. Additionally, this vulnerability appears to be moreso related to a customer's own environment and not PingDirectory specifically.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-21835"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/oracle-java-se"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not load and run untrusted code onto the server on which it is running nor does it rely on a Java sandbox for security as stated in this CVE. Additionally, this vulnerability appears to be moreso related to a customer's own environment and not PingDirectory specifically.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-25194"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/opt-server-lib-kafka-clients-3-2-3-jar"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory only uses Kafka as a client and not as a vulnerable server as described in this CVE. The Synchronization Server has the ability to use Kafka as a sync destination, but in that regard it operates only as a client that can send messages to a Kafka server that a customer manages. To ensure non-exploitability for customers that use Apache Kafka Server, we are upgrading Apache Kafka Connect to fixed version 3.4.0. If a customer uses Kafka Connect in their environment, we advise them to validate connector configurations and only allow trusted JNDI configurations until the next PingDirectory release.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-26048"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/eclipse-jetty"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE is not exploitable as PingDirectory doesn't expose servlets with \"@MultipartConfig\" support. However, Jetty will be upgraded to a non-vulnerable version out of an abundance of caution.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-28708"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API. Version 9.0.68 is not vulnerable as per https://security.snyk.io/package/maven/org.apache.tomcat.embed%3Atomcat-embed-el/9.0.68.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/filebackedoutputstream-in-google-guava"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not utilize the vulnerable Google Guava FileBackedOutputSteam function. This CVE is not exploitable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-31582"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.bitbucket.b_c/jose4j"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not use the PBE (Password-Based Encryption) algorithm which is vulnerable to Insufficient Entropy as per CVE details. Nevertheless, jose4j will be updated to 0.9.3 in PingDirectory 10.0+",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-33202"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/org-bouncycastle"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Non-issue for newer releases PingDirectory from 10.0 onward use 1.76 of org.bouncycastle non-fips. PingDirectory also does not use the vulnerable org.bouncycastle.openssl.PEMParser class.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34034"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDataConsole does not use Spring WebFlux framework hence it is not vulnerable to this CVE. The Spring component has been upgraded to 5.3.39 in version 10.2 of the product.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34054"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.netty/netty-all"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The dependency from Docker that uses netty does not use Reactor Netty HTTP Server Metrics. This is a false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34062"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.netty/netty-all"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The dependency from Docker that uses netty does not use # Reactor Netty HTTP Server. This is a false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34462"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.netty/netty-all"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory only uses Netty handler in unit tests. This is a false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-35116"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Jackson databind is excluded as a dependency, PingDirectory is not vulnerable to this CVE. False positive.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-36478"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-http"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This vulnerability cannot be exploited as HTTP2 protocol is disabled by default in PingDirectory. Jetty will be updated to 10.0.17 in PingDirectory 10.0+",
+      "justification": "vulnerable_code_cannot_be_controlled_by_adversary",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-36479"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/org-eclipse-jetty-servlets-cgi"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not use the vulnerable org.eclipse.jetty.servlets.CGI Servlet the next release 10.3 uses 11.0.19 of org.eclipse.jetty so this CVE will not be detected.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-38286"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.thymeleaf/thymeleaf"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The Thymeleaf component is a transitive dependency for spring-boot which is used by PingData Administrative console. The CVE is not exploitable in the context of the admin console application as both Spring Boot Admin and MailNotifier are not included by the admin console. Additionally this component is an addon and can be safely disabled and removed if necessary. It will be upgraded in 10.3",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-39325"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/go"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not use golang. Multiple git submodules are present in the PingDirectory image\u2019s OS. As these are written in golang, the packages contain go files as dependencies, however no go commands are executable on PingDirectory, meaning that even with local access to a container, vulnerabilities in go language components cannot be exploited. If the case arises that a vulnerability in go can be exploited in an Alpine package, we would act on this and patch accordingly.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-40167"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-http"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "No exploit exists for this issue. Nevertheless, Jetty will be updated to 10.0.17 in PingDirectory 10.0+",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41080"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API. Version 9.0.68 is not vulnerable as per https://security.snyk.io/package/maven/org.apache.tomcat.embed%3Atomcat-embed-el/9.0.68.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-42795"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API. Version 9.0.68 is not vulnerable as per https://security.snyk.io/package/maven/org.apache.tomcat.embed%3Atomcat-embed-el/9.0.68.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-44487"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.netty/netty-codec-http2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Netty is a transitive dependency of AWS SDK. As discussed in this thread https://github.com/aws/aws-sdk-java-v2/issues/4619, netty is used by the SDK as a client, not a server. Hence, this CVE cannot be exploited.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-45648"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API. Version 9.0.68 is not vulnerable as per https://security.snyk.io/package/maven/org.apache.tomcat.embed%3Atomcat-embed-el/9.0.68.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-4586"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.netty/netty-all"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE pertains to Hot Rod client that PingDirectory does not use. This advisory was withdrawn as per https://github.com/advisories/GHSA-57m8-f3v5-hm5m",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-46589"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API. Version 9.0.68 is not vulnerable as per https://security.snyk.io/package/maven/org.apache.tomcat.embed%3Atomcat-embed-el/9.0.68.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-51775"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.bitbucket.b_c/jose4j"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The directory\u2019s JWT access token validator doesn\u2019t support PBKDF2-based key management algorithms. I wouldn\u2019t expect the validator to even attempt to decrypt a JWE using one of those algorithms.This dependency will be updated in version 10.1.0.0 and has been backported to maintained releases.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-52428"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.nimbusds/nimbus-jose-jwt"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not use the vulnerable PasswordBasedDecrypter class. This is a false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22201"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.eclipse.jetty/jetty-server"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE will no longer show up in updated versions of PingDirectory as Jetty has been updated to 10.0.20. As of 10.3 we are using Jetty 11.0.19 and currently Jetty is updated to 11.0.25.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22243"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory is not vulnerable to this issue as the UriComponentsBuilder is not implemented, 2 instances show up in the PingDataConsole which is bundled with PD. Spring Framework in the PingDataConsole will be upgraded in a future release to avoid scan findings.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22262"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory is not vulnerable to this issue as the UriComponentsBuilder is not implemented, starting with 10.3 release this will no longer show up on scans.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29025"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.netty/netty-all"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDirectory does not impliment the vulnerable \"HttpPostRequestDecoder\" class in Netty. This is a false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38286"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API. Version 9.0.68 is not vulnerable as per https://security.snyk.io/package/maven/org.apache.tomcat.embed%3Atomcat-embed-el/9.0.68.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38821"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingDataConsole does not use Spring WebFlux framework hence it is not vulnerable to this CVE. The Spring component has been upgraded to 5.3.39 in version 10.2 of the product.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-50379"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API. Version 9.0.68 is not vulnerable as per https://security.snyk.io/package/maven/org.apache.tomcat.embed%3Atomcat-embed-el/9.0.68.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-52316"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API. Version 9.0.68 is not vulnerable as per https://security.snyk.io/package/maven/org.apache.tomcat.embed%3Atomcat-embed-el/9.0.68.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-54677"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API. Version 9.0.68 is not vulnerable as per https://security.snyk.io/package/maven/org.apache.tomcat.embed%3Atomcat-embed-el/9.0.68.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-56128"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.kafka/kafka-clients"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE is not exploitable in PingDataSync. Kafka can be configured as a sync destination. However, the vulnerable SCRAM component is not reachable through PingDataSync modules.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-56337"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API. Version 9.0.68 is not vulnerable as per https://security.snyk.io/package/maven/org.apache.tomcat.embed%3Atomcat-embed-el/9.0.68.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-6484"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/bootstrap@3.4.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The issue has been reported to the engineering team.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22235"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework.boot/spring-boot"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "There were no instances of the method EndpointRequest.to() found so this is a false positive. We are currently using version 3.4.2 the 10.3 release might contain the updated dependency. We recommend the customer updates to the new release.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-24970"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.netty/netty-all"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Netty is a transitive dependency of AWS SDK. It is not used as a web server and not exploitable in the context of PingDirectory. The latest AWS SDK version uses Netty 4.1.118 which is not affected by this CVE. It will be upgraded in version 10.3 of the product.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-25193"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.netty/netty-all"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Netty is a transitive dependency of AWS SDK. As of March 2025, the latest SDK version is using Netty 4.1.118 which is affected by the CVE. There is no fix available at the moment.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41242"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingAuthorize Server and PingDirectory is not vulnerable to this CVE. The component that uses Spring Framework is PingData Management Console. By default, this component is deployed with an embedded Jetty servlet container. As per CVE details, applications deployed on Apache Tomcat or Eclipse Jetty are not vulnerable.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48734"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/commons-beanutils/commons-beanutils"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The vulnerable class PropertyUtilsBean is not in use by the Directory server or management console, false positive.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48988"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat-el-api"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48989"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat-el-api"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-49124"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat-el-api"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-49125"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat-el-api"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52520"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat-el-api"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-53506"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat-el-api"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-55668"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.tomcat/tomcat-el-api"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This is a false positive. The CVE mentions Tomcat, but the package reported is tomcat-embed-el. \"tomcat-embed-el\" refers to a specific Java library within the Apache Tomcat project, which provides the implementation of the Expression Language (EL) API.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58057"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.netty/netty-all"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE is not exploitable in PingDirectory. The description mentions BrotliDecoder class as vulnerable. None of PingDirectory components is using this class. Nevertheless, the component will be upgraded in version 11 of the product.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-XPW8-RCWV-8F8P"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/io.netty/netty-codec-http2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Netty is a transitive dependency of AWS SDK. As discussed in this thread https://github.com/aws/aws-sdk-java-v2/issues/4619, netty is used by the SDK as a client, not a server. Hence, this CVE cannot be exploited.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "NONE"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/git@2.30.2-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Package will be updated in next PingDirectory docker release",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "NONE"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/freetype@2.10.4-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Package will be updated in next PingDirectory docker release",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "VULNDB-243999"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.groovy/groovy"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This VULNDB finding does not appear to have a CVE associated with it, please provide a CVE so we can accurately address your concerns. Version 2.5.16 of groovy is currently schedule for upgrade in version 9.1-GA of the product. As of now, version 2.5.16 of groovy does not have any known CVEs.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "VULNDB-275302"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This VULNDB finding does not appear to have a CVE associated with it, please provide a CVE so we can accurately address your concerns. Jackson databind is currently schedule for upgrade in version 9.2-EA of the product.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-111497"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingdirectory?repository_url=index.docker.io%2Fpingidentity%2Fpingdirectory",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/nodejs"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Not affected. CVE-2026-111497 is an out-of-bounds write in the Node.js built-in Brotli decoder, exploitable only where a Node.js runtime decompresses attacker-controlled Brotli data. PingDirectory does not ship or execute a Node.js runtime: the Node.js-built UI is compiled ahead of time into static JavaScript bundles served by the product, and at request time the browser (not Node.js) renders it and performs any Content-Encoding decompression using the browser's own Brotli implementation, which is separate code and not affected by this CVE. Node.js is used only in CI build containers, which are not deployed to production.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    }
+  ]
+}

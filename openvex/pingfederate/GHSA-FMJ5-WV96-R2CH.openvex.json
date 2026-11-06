@@ -1,0 +1,28 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/vex/summaries/GHSA-FMJ5-WV96-R2CH",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-11-06T16:13:49Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-FMJ5-WV96-R2CH"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingfederate?repository_url=index.docker.io%2Fpingidentity%2Fpingfederate",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.httpcomponents/httpclient"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingFederate is not affected by this vulnerability on the releases in question. PingFederate 13.1.3 and later ship Apache HttpClient 4.5.13, which includes the handshake-timeout fix delivered in 4.3.6, so SSL handshakes honor the configured socket timeouts. No customer action is required.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    }
+  ]
+}

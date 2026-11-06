@@ -1,0 +1,28 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/vex/summaries/GHSA-MHM7-754M-9P8W",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-11-06T16:13:49Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-MHM7-754M-9P8W"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingaccess?repository_url=index.docker.io%2Fpingidentity%2Fpingaccess",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Not affected. GHSA-mhm7-754m-9p8w (jackson-databind @JsonView creator-property bypass, no CVE assigned, Moderate) allows attacker-controlled JSON to populate a constructor parameter restricted with @JsonView when that parameter is also bound via @JsonTypeInfo(include = As.EXTERNAL_PROPERTY). Exploitation requires all three annotations combined in application code: a property-based @JsonCreator, a @JsonView-restricted creator parameter, and an EXTERNAL_PROPERTY type binding on that parameter. Verified across the full PingAccess 9.1 distribution (all 165 runtime jars and 83 upgrade-utility jars, class-by-class): zero PingAccess classes reference @JsonView or As.EXTERNAL_PROPERTY; the 30 classes using @JsonCreator never combine it with views or external type ids; the only @JsonTypeInfo usage is include = As.PROPERTY in pf-admin-api-clients-v2 model classes with no view restrictions. PingAccess also does not deserialize client request bodies into typed bean graphs (no spring-web/spring-webmvc in the distribution; JSON parsing is limited to trusted sources - token providers, JWE-protected structures, cluster-internal channels). The OpenTelemetry agent jar bundles its own shaded, classloader-isolated jackson 2.22.2 for internal telemetry export, which is above the affected line and does not process product data. All code-level preconditions are absent, so the vulnerable deserialization path cannot be constructed regardless of library version. Remediation rides the standard Jackson library update cadence (fixed in 2.21.5).",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    }
+  ]
+}

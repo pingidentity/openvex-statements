@@ -1,0 +1,28 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/vex/summaries/GMS-2026-577",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-11-06T16:13:49Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GMS-2026-577"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingfederate?repository_url=index.docker.io%2Fpingidentity%2Fpingfederate",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingFederate 13.1.3 and the current mainline ship jackson-core 2.21.1, which predates the completed fix for this advisory on the 2.21.x line (2.21.2 or later). The impact is limited to denial-of-service hardening: an oversized JSON document may bypass the configured document-length limit in some parser entry points, and exploiting it requires an attacker to deliver very large JSON bodies to an endpoint that parses them, with standard fronting-proxy body-size limits further constraining exposure. An updated jackson-core will be delivered in an upcoming release as part of the regular Jackson dependency refresh, which also addresses the related jackson-databind advisory CVE-2026-68497. As an interim mitigation, we recommend enforcing request-body size limits at any reverse proxy in front of PingFederate.",
+      "justification": "inline_mitigations_already_exist",
+      "timestamp": "2026-11-06T16:13:49Z"
+    }
+  ]
+}

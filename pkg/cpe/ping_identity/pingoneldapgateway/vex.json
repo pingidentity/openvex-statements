@@ -1,0 +1,1263 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/pkg/cpe/ping_identity/pingoneldapgateway/vex.json",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-11-06T16:13:49Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2024-0853"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-2398"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-2466"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-8096"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-9681"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-10966"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-14017"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-14524"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-14819"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15079"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-3783"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-3784"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcurl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcurl 8.5.0-r0 is installed in the Alpine base image, but libcurl.so is never loaded by the LDAP Gateway, and there are no product scripts/configs or Java subprocess calls that use it, so libcurl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-0853"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-2398"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-2466"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-8096"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-9681"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-10966"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-14017"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-14524"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-14819"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15079"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-3783"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-3784"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/curl@8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "curl 8.5.0-r0 is present as a CLI tool in the base OS, but LDAP Gateway does not invoke curl anywhere in its code or configs, so curl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-0727"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libssl1-1@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libssl1.1 1.1.1w-r1 is present in the OS but unused by LDAP Gateway at runtime, so this CVE is not exercised by the product.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-68160"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libssl1-2@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libssl1.1 1.1.1w-r1 is present in the OS but unused by LDAP Gateway at runtime, so this CVE is not exercised by the product.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69418"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libssl1-3@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libssl1.1 1.1.1w-r1 is present in the OS but unused by LDAP Gateway at runtime, so this CVE is not exercised by the product.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69419"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libssl1-4@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libssl1.1 1.1.1w-r1 is present in the OS but unused by LDAP Gateway at runtime, so this CVE is not exercised by the product.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69420"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libssl1-5@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libssl1.1 1.1.1w-r1 is present in the OS but unused by LDAP Gateway at runtime, so this CVE is not exercised by the product.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69421"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libssl1-6@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libssl1.1 1.1.1w-r1 is present in the OS but unused by LDAP Gateway at runtime, so this CVE is not exercised by the product.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22795"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libssl1-7@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libssl1.1 1.1.1w-r1 is present in the OS but unused by LDAP Gateway at runtime, so this CVE is not exercised by the product.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22796"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libssl1-8@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libssl1.1 1.1.1w-r1 is present in the OS but unused by LDAP Gateway at runtime, so this CVE is not exercised by the product.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-0727"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-68160"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69418"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69419"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69420"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69421"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22795"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22796"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-0727"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcrypto1-1@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcrypto1.1 1.1.1w-r1 is installed in the base image, but libcrypto.so.1.1 is not loaded into the gateway JVM and is not referenced by gateway code or configs, so libcrypto1.1 is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-68160"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcrypto1-2@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcrypto1.1 1.1.1w-r1 is installed in the base image, but libcrypto.so.1.1 is not loaded into the gateway JVM and is not referenced by gateway code or configs, so libcrypto1.1 is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69418"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcrypto1-3@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcrypto1.1 1.1.1w-r1 is installed in the base image, but libcrypto.so.1.1 is not loaded into the gateway JVM and is not referenced by gateway code or configs, so libcrypto1.1 is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69419"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcrypto1-4@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcrypto1.1 1.1.1w-r1 is installed in the base image, but libcrypto.so.1.1 is not loaded into the gateway JVM and is not referenced by gateway code or configs, so libcrypto1.1 is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69420"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcrypto1-5@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcrypto1.1 1.1.1w-r1 is installed in the base image, but libcrypto.so.1.1 is not loaded into the gateway JVM and is not referenced by gateway code or configs, so libcrypto1.1 is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69421"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcrypto1-6@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcrypto1.1 1.1.1w-r1 is installed in the base image, but libcrypto.so.1.1 is not loaded into the gateway JVM and is not referenced by gateway code or configs, so libcrypto1.1 is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22795"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcrypto1-7@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcrypto1.1 1.1.1w-r1 is installed in the base image, but libcrypto.so.1.1 is not loaded into the gateway JVM and is not referenced by gateway code or configs, so libcrypto1.1 is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22796"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/libcrypto1-8@1.1.1w-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "libcrypto1.1 1.1.1w-r1 is installed in the base image, but libcrypto.so.1.1 is not loaded into the gateway JVM and is not referenced by gateway code or configs, so libcrypto1.1 is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-28182"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/nghttp2-libs@1.47.0-r2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "nghttp2-libs 1.47.0-r2 is present in the base image as an HTTP/2 library, but libnghttp2.so does not appear in the LDAP Gateway JVM\u2019s memory map, and nothing in the product references it, so nghttp2-libs is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-23337"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/jquery-ui@1.6-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "jq 1.6-r1 is installed in the base image as a CLI JSON tool, but there are no references to jq in gateway code or product directories, so jq is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-53427"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/jquery-ui@1.6-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "jq 1.6-r1 is installed in the base image as a CLI JSON tool, but there are no references to jq in gateway code or product directories, so jq is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48060"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/jquery-ui@1.6-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "jq 1.6-r1 is installed in the base image as a CLI JSON tool, but there are no references to jq in gateway code or product directories, so jq is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-9403"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/jquery-ui@1.6-r1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "jq 1.6-r1 is installed in the base image as a CLI JSON tool, but there are no references to jq in gateway code or product directories, so jq is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-56406"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/perl@5.34.2-r0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "perl 5.34.2-r0 is installed in the base image and used by generic system scripts (such as OpenSSL\u2019s tsget utilities), but LDAP Gateway does not call perl from its code or configs, so perl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-11226"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/ch.qos.logback/logback-classic"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "logback-core is present and used only for console logging in LDAP Gateway 4.1.0; Janino is not on the classpath and logback conditional configuration (<if condition=\"...\">) is not used, so the conditions required for this CVE are not met and it is not believed to be exploitable in this product.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48924"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/org-apache-commons-commons-lang3@3.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "commons-lang3 is present and used by LDAP Gateway 4.1.0, but the vulnerable ClassUtils.getClass(...) API is not referenced in gateway code; we treat this as a library-level CVE with no identified direct usage in the product and will remediate by upgrading to the fixed version.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41242"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "spring-webmvc is present on the classpath for LDAP Gateway 4.1.0, but the gateway does not define any Spring MVC controllers or reference org.springframework.web.* in its own classes, so the module is effectively unused by product code and the CVE is scoped to an unused framework component.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41249"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "spring-core 6.2.8 is a core Spring framework dependency used throughout LDAP Gateway 4.1.0 (bean/context wiring in multiple com.pingidentity.lightning.ldapaccess.* classes), so this CVE is treated as a true-positive framework vulnerability and will be remediated by upgrading Spring Core to the fixed version in the next release.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-31789"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-2673"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-28387"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-28389"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-28390"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-31790"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-28388"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/openssl"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The openssl package is present in the base image and used only for generic tooling; LDAP Gateway does not invoke the openssl CLI or rely on its binaries directly, so openssl is not used by the product at runtime.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40200"
+      },
+      "products": [
+        {
+          "@id": "cpe:2.3:a:ping_identity:pingoneldapgateway::::::::",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/musl"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Vulnerable qsort code is present in musl. On 64-bit aarch64 systems, triggering the bug requires arrays exceeding ~34 trillion elements (the 64th Leonardo number), which we do not believe is achievable in typical LDAP Gateway container deployments. Based on this, we do not consider LDAP Gateway deployments to be practically exploitable by this issue.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    }
+  ]
+}
