@@ -1,0 +1,123 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/pkg/generic/pingidentity/pingfederate-iks/vex.json",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-11-06T16:13:49Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2015-7501"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingfederate-iks",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/products-plugins-integration-kits-pf-websphere-integration-kit-pf-websphere-integration-kit-2-1-2-snapshot"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE applies to various RedHat JBoss components when used with Apache Commons Collections(ACC). Niether PF nor IK uses jboss.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2017-15708"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingfederate-iks",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.synapse/synapse-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Apache Synapse is not used by PingFederate. It's also not used in pingone-mfa-ik. Apache commons is already at fixed version level of 3.2.2 (commons-collections-3.2.2) <- that is used by PF.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-42889"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingfederate-iks",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.apache.commons/commons-text"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "False positive. No PingFederate Integration kits use commons-text methods which implement StringLookup as described in https://nvd.nist.gov/vuln/detail/CVE-2022-42889. All IKs use the replace() method, not the potentially vulnerable createInterpolator() method. None of the replace() overrides contain StringLookup, StringLookupFactory or createInterpolator. See https://commons.apache.org/proper/commons-text/apidocs/src-html/org/apache/commons/text/StringSubstitutor.html.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43401"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingfederate-iks",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.jenkins-ci.main/jenkins-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE is pertinent to exploitation in Jenkins Script Security Plugin, not in Ping products. It does not carry any risk in Ping products.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43403"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingfederate-iks",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.jenkins-ci.main/jenkins-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE is pertinent to exploitation in Jenkins Script Security Plugin, not in Ping products. It does not carry any risk in Ping products.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43404"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingfederate-iks",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.jenkins-ci.main/jenkins-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE is pertinent to exploitation in Jenkins Script Security Plugin, not in Ping products. It does not carry any risk in Ping products.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    }
+  ]
+}

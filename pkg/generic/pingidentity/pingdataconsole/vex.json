@@ -1,0 +1,142 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/pkg/generic/pingidentity/pingdataconsole/vex.json",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-11-06T16:13:49Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2023-20873"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingdataconsole",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The CVE only affects applications that are deployed to Cloud Foundry. This is not the case for PingData Admin console.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34034"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingdataconsole",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingData Admin console is not affected by this issue as it is not built on WebFlux. It is a web extension component and can be safely disabled in PingDirectory and PingAuthorize. It is a web extension component and can be safely disabled in PingDirectory and PingAuthorize.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22243"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingdataconsole",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingData Admin console does not parse externally provided URLs with URIComponentsBuilder hence it is not vulnerable to this CVE. It is a web extension component and can be safely disabled in PingDirectory and PingAuthorize.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22257"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingdataconsole",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework.security/spring-security-core"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingData Admin console is not affected by this issue as it does not use the vulnerable class AuthenticatedVoter. It is a web extension component and can be safely disabled in PingDirectory and PingAuthorize. It is a web extension component and can be safely disabled in PingDirectory and PingAuthorize.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22259"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingdataconsole",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingData Admin console does not parse externally provided URLs with URIComponentsBuilder hence it is not vulnerable to this CVE. It is a web extension component and can be safely disabled in PingDirectory and PingAuthorize.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-22262"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingdataconsole",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/org.springframework/spring-web"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingData Admin console does not parse externally provided URLs with URIComponentsBuilder hence it is not vulnerable to this CVE. It is a web extension component and can be safely disabled in PingDirectory and PingAuthorize.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-111497"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingdataconsole",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/nodejs"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Not affected. CVE-2026-111497 is an out-of-bounds write in the Node.js built-in Brotli decoder, exploitable only where a Node.js runtime decompresses attacker-controlled Brotli data. PingDataConsole does not ship or execute a Node.js runtime: the Node.js-built UI is compiled ahead of time into static JavaScript bundles served by the product, and at request time the browser (not Node.js) renders it and performs any Content-Encoding decompression using the browser's own Brotli implementation, which is separate code and not affected by this CVE. Node.js is used only in CI build containers, which are not deployed to production.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    }
+  ]
+}
