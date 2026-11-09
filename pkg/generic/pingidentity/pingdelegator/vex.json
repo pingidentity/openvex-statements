@@ -1,0 +1,28 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/pkg/generic/pingidentity/pingdelegator/vex.json",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-11-06T16:13:49Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2026-111497"
+      },
+      "products": [
+        {
+          "@id": "pkg:generic/pingidentity/pingdelegator",
+          "subcomponents": [
+            {
+              "@id": "pkg:generic/nodejs"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "Not affected. CVE-2026-111497 is an out-of-bounds write in the Node.js built-in Brotli decoder, exploitable only where a Node.js runtime decompresses attacker-controlled Brotli data. PingDelegator does not ship or execute a Node.js runtime: the Node.js-built UI is compiled ahead of time into static JavaScript bundles served by the product, and at request time the browser (not Node.js) renders it and performs any Content-Encoding decompression using the browser's own Brotli implementation, which is separate code and not affected by this CVE. Node.js is used only in CI build containers, which are not deployed to production.",
+      "justification": "component_not_present",
+      "timestamp": "2026-11-06T16:13:49Z"
+    }
+  ]
+}

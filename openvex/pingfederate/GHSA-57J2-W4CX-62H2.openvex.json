@@ -1,0 +1,28 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://vex.ping-eng.com/vex/summaries/GHSA-57J2-W4CX-62H2",
+  "author": "Platform Security <security@pingidentity.com>",
+  "version": 1,
+  "timestamp": "2026-11-06T16:13:49Z",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GHSA-57J2-W4CX-62H2"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/pingfederate?repository_url=index.docker.io%2Fpingidentity%2Fpingfederate",
+          "subcomponents": [
+            {
+              "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "PingFederate is not affected by this vulnerability on the releases in question. PingFederate 13.1.3 and later ship jackson-databind 2.21.1, which is far above the 2.13.0 threshold and includes modern stream-constraint protections such as nesting-depth and document-length limits. Customers running very old maintenance releases with jackson-databind 2.12.x should upgrade to a current release, which resolves this alongside many other dependency updates.",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2026-11-06T16:13:49Z"
+    }
+  ]
+}
